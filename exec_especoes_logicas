@@ -1,0 +1,23 @@
+2) S = (D v A ^ C) v ~(B v C) 
+S=(D∨A∧C)∨¬(B∨C)
+S=(V∨V∧F)∨¬(F∨F)
+S=(V∨F)∨¬F
+S=V∨V
+S=V
+
+3) S = ~(A v B) 
+S=¬(V∨F)
+S=¬V
+S=F
+
+4) S = ~(A ^ B)
+S=¬(V∧F)
+S=¬F
+S=V
+
+5) S = C v ~B ^ (A v ~D)
+S=F∨¬F∧(V∨¬V)
+S=F∨V∧(V∨F)
+S=F∨V∧V
+S=F∨V
+S=V
